@@ -29,7 +29,6 @@
       - zsh
       - hplip
       - make
-      - code
       - p7zip
       - p7zip-plugins
       - powertop
