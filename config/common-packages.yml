@@ -10,15 +10,15 @@
       - virt-top
       - libvirt-daemon-config-network
       - libvirt-daemon-kvm
-	  - qemu-char-spice
-	  - qemu-device-display-virtio-gpu
-	  - qemu-device-display-virtio-vga
-	  - qemu-device-usb-redirect
+      - qemu-char-spice
+      - qemu-device-display-virtio-gpu
+      - qemu-device-display-virtio-vga
+      - qemu-device-usb-redirect
       - qemu-img
-	  - qemu-system-x86-core
+      - qemu-system-x86-core
       - qemu-user-binfmt
-	  - qemu-user-static
-	  - qemu
+      - qemu-user-static
+      - qemu
       - virt-manager
       - virt-viewer
       - distrobox
