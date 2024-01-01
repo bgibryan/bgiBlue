@@ -4,3 +4,5 @@ ublue_variants:
     flavors:
       - label: ubluebk
         info: PLASMA
+      - label: ublue-b-silver
+        info: GNOME
