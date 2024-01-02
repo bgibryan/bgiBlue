@@ -4,7 +4,7 @@ system:
   # If no repo information is specified, Flathub will be used by default
   repo-name: flathub
   repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-  install:
+  #install:
     #- org.gnome.Loupe
     #- one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
                                    # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08).
@@ -12,7 +12,7 @@ system:
                                    # Multiple install of same flatpaks with different branches is not supported.
 user:
   repo-name: flathub-user
-  repo-title: "Flathub (User)
+  repo-title: "Flathub (user)"
   install:
     - com.brave.Browser                         
     - com.discordapp.Discord                    
