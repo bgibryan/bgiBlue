@@ -32,7 +32,7 @@ RUN wget https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora
         vte-profile && \
     rpm-ostree install \
         prompt && \
-    rm -f /etc/yum.repos.d/_copr_kylegospo-prompt.repo \
+    rm -f /etc/yum.repos.d/_copr_kylegospo-prompt.repo
 
 
 COPY cosign.pub /usr/share/ublue-os/cosign.pub
