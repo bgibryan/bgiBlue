@@ -2,7 +2,7 @@ ublue_variants:
   - label: ublue-os/bgiBlue
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: ubluebk
+      - label: ublue-b-kinoite
         info: PLASMA
       - label: ublue-b-silver
         info: GNOME
