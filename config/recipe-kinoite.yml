@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ubluebk
+name: ublue-b-kinoite
 # description will be included in the image's metadata
 description: A Custom Kinoite Ublue Build
 
