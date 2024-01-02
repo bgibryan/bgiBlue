@@ -1,0 +1,31 @@
+  - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
+                #  will be installed and set up
+    custom-flatpaks: # this section is optional
+       #- Celluloid: io.github.celluloid_player.Celluloid
+       #- Krita: org.kde.krita
+      - Brave Browser: com.brave.Browser                         
+      - Discord: com.discordapp.Discord                    
+      - Flatseal: com.github.tchx84.Flatseal                
+      - Google Chrome: com.google.Chrome                         
+      - PyCharm-Community: com.jetbrains.PyCharm-Community           
+      - Spotify: com.spotify.Client                        
+      - Bottles: com.usebottles.bottles                    
+      - Visual Studio Code: com.visualstudio.code
+      - VSCodium: com.vscodium.codium                       
+      - KdiskMark: io.github.jonmagon.kdiskmark              
+      - Chromium Web Browser: org.chromium.Chromium                     
+      - FileZilla: org.filezillaproject.Filezilla            
+      - GNU Image Manipulation Program: org.gimp.GIMP                             
+      - Déjà Dup Backups: org.gnome.DejaDup                         
+      - Inkscape: org.inkscape.Inkscape                     
+      - LibreOffice: org.libreoffice.LibreOffice               
+      - Firefox: org.mozilla.firefox                       
+      - Zenmap: org.nmap.Zenmap                           
+      - Raspberry Pi Imager: org.raspberrypi.rpi-imager                
+      - Remmina: org.remmina.Remmina                       
+      - qpwgraph: org.rncbc.qpwgraph                        
+      - Signal Desktop: org.signal.Signal                         
+      - VLC: org.videolan.VLC                          
+      - Wireshark: org.wireshark.Wireshark                   
+      - Insomnia: rest.insomnia.Insomnia                    
+      - Anydesk: com.anydesk.Anydesk
