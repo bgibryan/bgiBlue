@@ -34,6 +34,11 @@ RUN wget https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora
         prompt && \
     rm -f /etc/yum.repos.d/_copr_kylegospo-prompt.repo
 
+# INSTALL VS CODE LOCALLY from REPO
+COPY config/files/etc/yum.repos.d/ /etc/yum.repos.d/
+
+RUN rpm-ostree install code && \
+    rm -f /etc/yumrepos.d/vscode.repo
 
 COPY cosign.pub /usr/share/ublue-os/cosign.pub
 
