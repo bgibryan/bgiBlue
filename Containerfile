@@ -51,6 +51,9 @@ COPY --from=ghcr.io/ublue-os/bling:latest /files /tmp/bling/files
 COPY build.sh /tmp/build.sh
 COPY config /tmp/config/
 
+# Copy usr files and systemd services
+COPY config/files/usr/ /usr/
+
 # Copy modules
 # The default modules are inside ublue-os/bling
 COPY --from=ghcr.io/ublue-os/bling:latest /modules /tmp/modules/
@@ -63,4 +66,6 @@ COPY --from=docker.io/mikefarah/yq /usr/bin/yq /usr/bin/yq
 
 # Run the build script, then clean up temp files and finalize container build.
 RUN chmod +x /tmp/build.sh && /tmp/build.sh && \
+    systemctl --global enable ublue-user-flatpak-manager.service && \
+    systemctl --global enable ublue-user-setup.service && \
     rm -rf /tmp/* /var/* && ostree container commit
