@@ -49,7 +49,7 @@ modules:
       # - flatpaksync # allows synchronization of user-installed flatpaks, see separate documentation section
 
 
-  - from-file: flatpaks.yml
+  #- from-file: flatpaks.yml
 
   - type: script
     scripts:
