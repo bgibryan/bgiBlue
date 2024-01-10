@@ -22,3 +22,6 @@ org.videolan.VLC
 org.wireshark.Wireshark
 rest.insomnia.Insomnia
 com.anydesk.Anydesk
+org.kde.okular
+org.kde.gwenview
+org.kde.krita
