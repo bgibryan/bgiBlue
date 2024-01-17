@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
-name: ublue-b-kinoite
+name: ublue-b-silver-htpc
 # description will be included in the image's metadata
-description: A Custom Kinoite Ublue Build
+description: A Custom Silverblue Ublue Build
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -20,8 +20,8 @@ modules:
                   # should be added into /usr/etc/ as that is the proper "distro"
                   # config directory on ostree. Read more in the files module's README
 
-  - from-file: common-packages.yml
-  - from-file: kde-packages.yml
+#  - from-file: common-packages.yml
+  - from-file: gnome-packages.yml
 
 #  - type: rpm-ostree
 #    repos:
@@ -48,7 +48,8 @@ modules:
       - laptop # installs TLP and configures your system for laptop usage
       # - flatpaksync # allows synchronization of user-installed flatpaks, see separate documentation section
 
-  - from-file: flatpaks.yml
+
+  - from-file: flatpaks-htpc.yml
 
   - type: script
     scripts:

@@ -1,0 +1,8 @@
+    type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
+                #  will be installed and set up
+    custom-flatpaks: # this section is optional
+       #- Celluloid: io.github.celluloid_player.Celluloid
+      - Flatseal: com.github.tchx84.Flatseal
+      - Retroarch: org.libretro.RetroArch
+      - Jellyfin: com.github.iwalton3.jellyfin-media-player 
+

@@ -41,6 +41,7 @@ jobs:
         recipe:
           - recipe-kinoite.yml
           - recipe-silverblue.yml
+          - recipe-silverblue-htpc.yml
 # !!!
 
     steps:

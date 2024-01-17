@@ -6,3 +6,5 @@ ublue_variants:
         info: PLASMA
       - label: ublue-b-silver
         info: GNOME
+      - label: ublue-b-silver-htpc
+        info: GNOME-HTPC
